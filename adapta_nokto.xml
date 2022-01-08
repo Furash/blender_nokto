@@ -35,7 +35,7 @@
           <ThemeWidgetColors
             outline="#384349"
             inner="#28343bff"
-            inner_sel="#5db8a180"
+            inner_sel="#428073bf"
             item="#445965ff"
             text="#a0a8a8"
             text_sel="#ffffff"
@@ -110,7 +110,7 @@
           <ThemeWidgetColors
             outline="#3c4f59"
             inner="#28343b80"
-            inner_sel="#7dffda80"
+            inner_sel="#428073bf"
             item="#7dffdaff"
             text="#ffffff"
             text_sel="#ffffff"
@@ -123,9 +123,9 @@
         </wcol_option>
         <wcol_toggle>
           <ThemeWidgetColors
-            outline="#263238"
-            inner="#222a2eff"
-            inner_sel="#5db8a1e6"
+            outline="#34464d"
+            inner="#243035ff"
+            inner_sel="#428073bf"
             item="#445965ff"
             text="#a0a8a8"
             text_sel="#ffffff"
@@ -156,7 +156,7 @@
             outline="#263238"
             inner="#28343bff"
             inner_sel="#212a2dff"
-            item="#44596526"
+            item="#40807d59"
             text="#cfd9d9"
             text_sel="#ffffff"
             show_shaded="FALSE"
@@ -290,7 +290,7 @@
           <ThemeWidgetColors
             outline="#263238"
             inner="#28343bff"
-            inner_sel="#445965ff"
+            inner_sel="#567080ff"
             item="#445965ff"
             text="#a0a8a8"
             text_sel="#ffffff"
@@ -805,7 +805,7 @@
         effect_strip="#a9547c"
         color_strip="#8f8f8f"
         meta_strip="#6d9183"
-        mask_strip="#666666"
+        mask_strip="#8f5656"
         text_strip="#a29700"
         active_strip="#d9d9d9"
         selected_strip="#ff8f0d"
