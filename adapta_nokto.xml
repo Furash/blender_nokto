@@ -169,7 +169,7 @@
         <wcol_box>
           <ThemeWidgetColors
             outline="#263238"
-            inner="#28343b33"
+            inner="#28343bf2"
             inner_sel="#445965ff"
             item="#445965ff"
             text="#a0a8a8"
@@ -229,7 +229,7 @@
         <wcol_pie_menu>
           <ThemeWidgetColors
             outline="#263238"
-            inner="#28343bef"
+            inner="#28343bf2"
             inner_sel="#445965ff"
             item="#397370ff"
             text="#a0a8a8"
@@ -316,6 +316,21 @@
             >
           </ThemeWidgetColors>
         </wcol_list_item>
+        <wcol_view_item>
+          <ThemeWidgetColors
+            outline="#2d2d2d"
+            inner="#303030ff"
+            inner_sel="#4772b3ff"
+            item="#4772b3ff"
+            text="#cccccc"
+            text_sel="#ffffff"
+            show_shaded="FALSE"
+            shadetop="0"
+            shadedown="0"
+            roundness="0.4"
+            >
+          </ThemeWidgetColors>
+        </wcol_view_item>
         <wcol_state>
           <ThemeWidgetStateColors
             inner_anim="#53992e"
@@ -428,10 +443,10 @@
             title="#d3dae3"
             text="#d3dae3"
             text_hi="#d3dae3"
-            header="#24303500"
+            header="#243035ff"
             header_text="#d3dae3"
             header_text_hi="#d3dae3"
-            button="#24303500"
+            button="#243035ff"
             button_title="#d3dae3"
             button_text="#d3dae3"
             button_text_hi="#d3dae3"
@@ -577,14 +592,14 @@
     </file_browser>
     <nla_editor>
       <ThemeNLAEditor
-        grid="#4e4e4e"
+        grid="#646464"
         view_sliders="#969696"
-        dopesheet_channel="#5a85b2"
-        nla_track="#424242"
-        active_action="#cc701a66"
+        dopesheet_channel="#3f575f"
+        nla_track="#243035"
+        active_action="#00725880"
         active_action_unset="#9987614d"
         preview_range="#a14d0066"
-        strips="#0c0a0a"
+        strips="#007258"
         strips_selected="#ff8c00"
         transition_strips="#1c2630"
         transition_strips_selected="#2e75db"
@@ -592,12 +607,12 @@
         meta_strips_selected="#692196"
         sound_strips="#2b3d3d"
         sound_strips_selected="#1f7a7a"
-        tweak="#4df31a"
+        tweak="#752565"
         tweak_duplicate="#d90000"
         keyframe_border="#d3dae3ff"
         keyframe_border_selected="#d3dae3ff"
         frame_current="#4e9399"
-        time_scrub_background="#292929e6"
+        time_scrub_background="#1c2630ff"
         time_marker_line="#00000060"
         time_marker_line_selected="#ffffff60"
         >
@@ -633,7 +648,7 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#393939"
+            list="#243035"
             list_title="#d3dae3"
             list_text="#b8b8b8"
             list_text_hi="#d3dae3"
@@ -644,16 +659,16 @@
     </nla_editor>
     <dopesheet_editor>
       <ThemeDopeSheet
-        grid="#4e4e4e"
+        grid="#474747"
         frame_current="#4e9399"
-        time_scrub_background="#292929e6"
+        time_scrub_background="#1c2630e6"
         time_marker_line="#00000060"
         time_marker_line_selected="#ffffff60"
         value_sliders="#d3dae3"
         view_sliders="#c0c0c0"
         dopesheet_channel="#0f2c4d24"
         dopesheet_subchannel="#143e6624"
-        channels="#393939ff"
+        channels="#3f575fff"
         channels_selected="#60c04044"
         channel_group="#16330f37"
         active_channels_group="#36802455"
@@ -672,7 +687,7 @@
         keyframe_border="#d3dae3ff"
         keyframe_border_selected="#d3dae3ff"
         keyframe_scale_factor="1"
-        summary="#4d250066"
+        summary="#00725866"
         preview_range="#a14d0066"
         interpolation_line="#94e575cc"
         >
@@ -708,7 +723,7 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#393939"
+            list="#243035"
             list_title="#d3dae3"
             list_text="#b8b8b8"
             list_text_hi="#d3dae3"
@@ -770,7 +785,7 @@
             header="#24303580"
             header_text="#d3dae3"
             header_text_hi="#d3dae3"
-            button="#38434900"
+            button="#243035ff"
             button_title="#d3dae3"
             button_text="#d3dae3"
             button_text_hi="#d3dae3"
@@ -851,6 +866,15 @@
             </panelcolors>
           </ThemeSpaceGeneric>
         </space>
+        <space_list>
+          <ThemeSpaceListGeneric
+            list="#181818"
+            list_title="#ffffff"
+            list_text="#ffffff"
+            list_text_hi="#ffffff"
+            >
+          </ThemeSpaceListGeneric>
+        </space_list>
       </ThemeSequenceEditor>
     </sequence_editor>
     <properties>
@@ -949,13 +973,13 @@
         node_backdrop="#2b383fff"
         converter_node="#66c4ff"
         color_node="#ccb83d"
-        group_node="#426628b9"
+        group_node="#426628"
         group_socket_node="#1a1a1a"
         frame_node="#1a1a1acc"
         matte_node="#975b5b"
         distor_node="#749797"
         noodle_curving="5"
-        grid_levels="4"
+        grid_levels="3"
         dash_alpha="0.5"
         input_node="#e64555"
         output_node="#b33641"
