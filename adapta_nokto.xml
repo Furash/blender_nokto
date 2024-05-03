@@ -476,17 +476,17 @@
     </view_3d>
     <graph_editor>
       <ThemeGraphEditor
-        grid="#4e4e4e"
+        grid="#474747"
         frame_current="#4e9399"
-        time_scrub_background="#292929e6"
+        time_scrub_background="#1c2630e6"
         time_marker_line="#00000060"
         time_marker_line_selected="#ffffff60"
         window_sliders="#969696"
-        channels_region="#393939"
-        dopesheet_channel="#0f2c4d"
-        dopesheet_subchannel="#143e66"
-        channel_group="#16330f"
-        active_channels_group="#368024"
+        channels_region="#3f575f"
+        dopesheet_channel="#3f575f"
+        dopesheet_subchannel="#243035"
+        channel_group="#36685e"
+        active_channels_group="#007258"
         preview_range="#a14d0066"
         vertex="#d3dae3"
         vertex_select="#ff8500"
@@ -541,7 +541,7 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#393939"
+            list="#243035"
             list_title="#d3dae3"
             list_text="#b8b8b8"
             list_text_hi="#d3dae3"
@@ -591,14 +591,14 @@
       <ThemeNLAEditor
         grid="#646464"
         view_sliders="#969696"
-        dopesheet_channel="#3f575f"
+        dopesheet_channel="#274d44"
         dopesheet_subchannel="#7d98b3"
-        nla_track="#2a4032"
-        active_action="#39726580"
+        nla_track="#303b42"
+        active_action="#00725880"
         active_action_unset="#24303500"
         preview_range="#a14d0066"
-        strips="#33665a"
-        strips_selected="#7acb7a"
+        strips="#3f575f"
+        strips_selected="#007258"
         transition_strips="#1c2630"
         transition_strips_selected="#2e75db"
         meta_strips="#332642"
@@ -610,7 +610,7 @@
         keyframe_border="#d3dae3ff"
         keyframe_border_selected="#d3dae3ff"
         frame_current="#4e9399"
-        time_scrub_background="#222d32ff"
+        time_scrub_background="#1d2730ff"
         time_marker_line="#00000060"
         time_marker_line_selected="#ffffff60"
         >
@@ -1618,7 +1618,7 @@
     <panel_title>
       <ThemeFontStyle
         points="14"
-        character_weight="400"
+        character_weight="500"
         shadow="3"
         shadow_offset_x="0"
         shadow_offset_y="-1"
@@ -1629,8 +1629,8 @@
     </panel_title>
     <widget_label>
       <ThemeFontStyle
-        points="14"
-        character_weight="400"
+        points="13"
+        character_weight="500"
         shadow="3"
         shadow_offset_x="0"
         shadow_offset_y="-1"
@@ -1641,8 +1641,8 @@
     </widget_label>
     <widget>
       <ThemeFontStyle
-        points="14"
-        character_weight="400"
+        points="13.5"
+        character_weight="500"
         shadow="1"
         shadow_offset_x="0"
         shadow_offset_y="-1"
